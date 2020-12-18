@@ -1,0 +1,22 @@
+html{
+  font-size: 10px;
+}
+body *{
+  border:2px solid red;
+}
+.container{
+  width: 60em;
+  font-size: 10px;
+  /* 60em * 10px = 600px */
+}
+.parent{
+  width: 30em;
+  font-size: 2em;
+  /* 10px*2em = 20px */
+}
+.child{
+  width: 20rem;
+  /* rem html 영향 */
+  font-size: 2em;
+  /* parent font-size*2em = 20px */
+}

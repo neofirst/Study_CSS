@@ -1,0 +1,40 @@
+p{
+  /* font-size: 40px; */
+  line-height: 2;
+  font-style: italic;
+  text-align: justify;
+}
+div{
+  font-size: 15px;
+}
+.serif{
+  text-align: left;
+  font-family: serif;
+}
+.san-sherif{
+  text-align: right;
+  font-family: san-sherif;
+}
+.monospace{
+  text-align: justify;
+  font-family: monospace;
+}
+.cursive{
+  text-align: center;
+  font-family: cursive;
+}
+.textdecoration{
+  font-size: 80px;
+  text-decoration: line-through;
+}
+.textindent{
+  text-indent: -109999px;
+}
+.letterspacing{
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.wordspacing{
+  font-size: 30px;
+  word-spacing: 5px;
+}

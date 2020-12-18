@@ -1,0 +1,306 @@
+/* flex */
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.container{
+  border: 2px solid red;
+  display: flex;
+  /* justify-items: center;
+  align-items: center; */
+}
+.container .item{
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+
+  /* display: inline-block;
+  font-size: 16px; */
+
+  /* clearfix */
+  /* float: left;   */
+}
+/* inline-flex */
+.container1{
+  border: 2px solid red;
+  display: inline-flex;
+}
+.container1 .item{
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* flex-direction */
+.container2{
+  border: 2px solid red;
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row; */
+  flex-direction: row-reverse;
+}
+.container2 .item{
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* flex nowrap */
+.container3{
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.container3 .item{
+  width: 150px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* flex wrap */
+.container4{
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container4 .item{
+  width: 150px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* flex reverse */
+.container5{
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.container5 .item{
+  width: 150px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* justify-content flex-start */
+.container6{
+  border: 2px solid red;
+  display: flex;
+  justify-content: flex-start;
+}
+.container6 .item{
+  width: 150px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* justify-content flex-end */
+.container7{
+  border: 2px solid red;
+  display: flex;
+  justify-content: flex-end;
+}
+.container7 .item{
+  width: 150px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* justify-content center */
+.container8{
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+}
+.container8 .item{
+  width: 150px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* justify-content space-around */
+.container9{
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+.container9 .item{
+  width: 150px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* justify-content space-between */
+.container10{
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container10 .item{
+  width: 150px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* align-content stretch */
+.container11{
+  height: 100px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+.container11 .item{
+  width: 150px;
+  height: auto;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* align-content flex-start */
+.container12{
+  height: 300px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.container12 .item{
+  width: 120px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* align-content flex-end */
+.container13{
+  height: 300px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.container13 .item{
+  width: 120px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* align-content center */
+.container14{
+  height: 300px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.container14 .item{
+  width: 150px;
+  height: auto;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* align-content strspace-betweenetch */
+.container15{
+  height: 300px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.container15 .item{
+  width: 150px;
+  height: auto;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* align-content strspace-around */
+.container16{
+  height: 300px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.container16 .item{
+  width: 150px;
+  height: auto;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* align-items stretch */
+.container17{
+  height: 100px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.container17 .item{
+  width: 150px;
+  height: auto;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* align-items flex-start */
+.container18{
+  height: 300px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.container18 .item{
+  width: 120px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* align-items flex-end */
+.container19{
+  height: 300px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.container19 .item{
+  width: 120px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* align-items center */
+.container20{
+  height: 300px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.container20 .item{
+  width: 150px;
+  height: auto;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* align-items baseline */
+.container21{
+  height: 300px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.container21 .item{
+  width: 150px;
+  height: auto;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}

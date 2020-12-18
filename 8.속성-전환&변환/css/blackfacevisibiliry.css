@@ -1,0 +1,8 @@
+img{
+  width: 300px;
+  border: 1px solid red;
+  transition: 1s;
+  transform: perspective(400px) rotateY(180deg);
+  /* 뒷면 숨김 */
+  backface-visibility: hidden;
+}

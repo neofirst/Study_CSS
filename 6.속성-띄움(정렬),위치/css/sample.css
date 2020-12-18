@@ -1,0 +1,84 @@
+article{
+
+}
+article .picture{
+  width: 200px;
+  height: 150px;
+  background-color: red;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+article .text{
+  clear: left;
+}
+.box{
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  float: left;
+  margin: 10px;
+}
+.box1{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: 10px;
+  clear: left;
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.position1{
+  width: 400px;
+  height: 300px;
+  border: 4px dashed lightblue;
+}
+.position2{
+  width: 150px;
+  height: 100px;
+  border: 4px dashed red;
+  background-color: yellow;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.position3{
+  width: 150px;
+  height: 100px;
+  border: 4px dashed red;
+  background-color: blue;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.position4{
+  width: 100px;
+  height: 100px;
+  border: 4px dashed red;
+  background-color: gray;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.position5{
+  position: relative;
+  top: 20px;
+  left: 50px;
+  /* right: 10px;
+  bottom: 20px;; */
+}
+.position6{
+  position: fixed;
+  top: 20px;
+  left: 50px;
+  background-color: gray;
+  /* right: 10px;
+  bottom: 20px;; */
+}
